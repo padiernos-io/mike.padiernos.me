@@ -1,0 +1,25 @@
+uuid: e280f4ec-346d-4ea3-93c7-7d64bc2420e4
+langcode: en
+status: false
+dependencies:
+  module:
+    - navigation
+active_version: 6bff3fd95c9429fb
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: navigation_link
+        label: Link
+        label_display: '0'
+        provider: navigation
+        title: ''
+        uri: ''
+        icon_class: ''
+    fallback_metadata:
+      slot_definitions: null
+label: Link
+id: block.navigation_link
+provider: navigation
+source: block
+source_local_id: navigation_link

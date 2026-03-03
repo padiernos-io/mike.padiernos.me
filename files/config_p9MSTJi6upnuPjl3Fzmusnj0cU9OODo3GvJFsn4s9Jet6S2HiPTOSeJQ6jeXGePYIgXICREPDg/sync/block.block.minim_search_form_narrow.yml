@@ -1,0 +1,23 @@
+uuid: 3268c8b6-2978-46e3-ab0a-4599ec1e286d
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - minim
+_core:
+  default_config_hash: _nZjxxdypO6xrOAJkCYD81v0L7wh2zbCAVO7_C-UKIc
+id: minim_search_form_narrow
+theme: minim
+region: branding
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: null
+visibility: {  }

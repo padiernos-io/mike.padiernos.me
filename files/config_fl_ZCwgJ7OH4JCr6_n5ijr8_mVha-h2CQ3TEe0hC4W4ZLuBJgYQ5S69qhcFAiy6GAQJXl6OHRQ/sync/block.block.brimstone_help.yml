@@ -1,0 +1,22 @@
+uuid: fd4e7a35-0a0a-4387-8a4f-9d8f348be725
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - brimstone
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: brimstone_help
+theme: brimstone
+region: buffer
+weight: -4
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,17 @@
+uuid: dda739e3-679f-4230-b647-4559f8c5c735
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Blog Post'
+type: blog_post
+description: 'Use <em>blog posts</em> for time-sensitive or personal content like news, press releases or opinion posts.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

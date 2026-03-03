@@ -1,0 +1,23 @@
+uuid: 08638bd9-b311-4dc6-b595-c445c7da5210
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - brimstone
+_core:
+  default_config_hash: _nZjxxdypO6xrOAJkCYD81v0L7wh2zbCAVO7_C-UKIc
+id: brimstone_search_form_narrow
+theme: brimstone
+region: buffer
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: null
+visibility: {  }

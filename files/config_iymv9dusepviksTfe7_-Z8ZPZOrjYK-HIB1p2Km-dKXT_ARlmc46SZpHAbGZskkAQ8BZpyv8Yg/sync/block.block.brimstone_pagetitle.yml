@@ -1,0 +1,24 @@
+uuid: 4e01da22-ff3c-417b-9f82-c824ce748c81
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - brimstone
+id: brimstone_pagetitle
+theme: brimstone
+region: hero
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

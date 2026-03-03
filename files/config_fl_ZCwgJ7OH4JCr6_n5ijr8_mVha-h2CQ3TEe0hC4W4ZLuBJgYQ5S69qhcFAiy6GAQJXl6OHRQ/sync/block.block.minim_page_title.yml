@@ -1,0 +1,20 @@
+uuid: 8d281fc6-13d9-4b75-a4af-8898e35bdc0a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - minim
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: minim_page_title
+theme: minim
+region: branding
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

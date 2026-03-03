@@ -1,0 +1,31 @@
+uuid: 3a9d241c-0119-462d-aaa0-2d6776b14717
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wtiD2a3ZqXWw4_OG6-jmSAyjVNeeIsqZf8rVnAe6J7I
+label: Default
+id: default
+key: ''
+recipient: {  }
+cc: {  }
+bcc: {  }
+fromName: ''
+fromAddress: ''
+replyToAddress: ''
+subject: ''
+inboxPreview: ''
+bodyHtml:
+  value: ''
+  format: easy_email
+bodyPlain: ''
+generateBodyPlain: false
+attachment: {  }
+saveAttachment: false
+attachmentScheme: private
+attachmentDirectory: ''
+saveEmail: true
+allowSavingEmail: true
+purgeEmails: true
+purgeInterval: 30
+purgePeriod: days
